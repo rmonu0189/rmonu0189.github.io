@@ -11003,9 +11003,17 @@ section.resume-section .resume-section-content {
 .project-item {
   flex-grow: 1 !important;
   padding: 20px;
-  width: 50%;
+  width: 100%;
 }
 
 .project-title-link {
   text-decoration: none;
+}
+
+.contact-us-item {
+  flex-grow: 1 !important;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
 }
