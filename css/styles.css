@@ -11193,4 +11193,9 @@ textarea {
   background-color: #181717;
   border: 0.05rem solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-item-container:hover {
+  transform: translateY(-10px);
 }
