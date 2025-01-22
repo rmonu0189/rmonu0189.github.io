@@ -10995,6 +10995,8 @@ section.resume-section .resume-section-content {
 .section-background {
   background-image: url('../assets/img/background.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .section-transparent-background {
@@ -11147,14 +11149,14 @@ textarea {
   background-color: #1e1e1e;
   color: rgba(255, 255, 255, 0.8);
   border-radius: 50px;
-  padding: 10px 20px;
+  padding: 7px 15px;
   text-align: center;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap; /* Prevent text wrapping */
   display: inline-block;
-  min-width: 100px; /* Ensure pills don't get too narrow */
+  min-width: 50px; /* Ensure pills don't get too narrow */
   width: auto; /* Adjust width based on content */
   transition: transform 0.3s ease-in-out;
 }
