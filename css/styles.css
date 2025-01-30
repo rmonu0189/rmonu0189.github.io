@@ -11201,3 +11201,8 @@ textarea {
 .project-item-container:hover {
   transform: translateY(-10px);
 }
+
+.img-article {
+  border: 0.3rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
